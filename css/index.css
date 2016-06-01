@@ -8,3 +8,8 @@
 td{
   font-weight: 400;
 }
+@media screen and (min-width: 991px){
+  .brand-logo{
+    margin-left: 20px;
+  }
+}

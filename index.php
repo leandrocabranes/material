@@ -32,7 +32,7 @@
   </div>
 
   <div class="parallax-container">
-    <div class="parallax"><img src="img/nexus.jpg" /></div>
+    <div class="parallax"><img src="img/foto1.jpg" /></div>
   </div>
 
   <div class="container section">
@@ -91,7 +91,7 @@
     </div>
   </footer>
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
     $(document).ready(function(){
