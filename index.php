@@ -31,11 +31,8 @@
     </nav>
   </div>
 
-  <div class="row">
-    <div class="col m12 cabecera">
-      <h1 class="center-align">OMA</h1>
-      <h3 class="center-align">Olimpíada de Matemática Argentina</h3>
-    </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="img/foto1.jpg" /></div>
   </div>
 
   <div class="container section">
@@ -67,14 +64,39 @@
         </tr>
       </tbody>
     </table>
-
   </div>
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <footer class="page-footer blue-grey lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Raíz Imaginaria</h5>
+          <p class="grey-text text-lighten-4">Grupo de desarrollo de software</p>
+        </div>
+        <div class="col l4 offset-12 s12">
+          <h5 class="white-text">Páginas asociadas</h5>
+          <ul>
+            <li><a href="">OMA Nacional</a></li>
+            <li><a href="">Ñandú Nacional</a></li>
+            <li><a href="">Camaleon</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2014 Copyright Text
+        <a href="#" class="grey-text text-lighten-4 right">Webmaster</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
     $(document).ready(function(){
       $(".button-collapse").sideNav();
+      $(".parallax").parallax();
     });
   </script>
 </body>
