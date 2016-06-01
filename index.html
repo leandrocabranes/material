@@ -4,6 +4,7 @@
   <meta charset="utf-8"/>
   <title>OMA</title>
   <link rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="css/index.css"  media="screen,projection"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
@@ -21,70 +22,42 @@
   </nav>
 
   <div class="row">
-    <div class="col m12">
-      <div class="valign-wrapper">
-        <h1 class="center-align">OMA</h1>
-      </div>
+    <div class="col m12 cabecera">
+      <h1 class="center-align">OMA</h1>
+      <h3 class="center-align">Olimíada de Matemática Argentina</h3>
     </div>
   </div>
 
   <div class="container section">
-    <div class="row">
-      <div class="col m12 blue-grey lighten-2">
-          <h3 class="blue-grey-text text-darken-4 center-align">Cronograma</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col m3 blue-grey lighten-2">
-        <h5 class="blue-grey-text text-darken-4">Nombre</h5>
-      </div>
-      <div class="col m2 blue-grey lighten-2">
-        <h5 class="blue-grey-text text-darken-4">Fecha</h5>
-      </div>
-      <div class="col m2 blue-grey lighten-2">
-        <h5 class="blue-grey-text text-darken-4">Horario</h5>
-      </div>
-      <div class="col m3 blue-grey lighten-2">
-        <h5 class="blue-grey-text text-darken-4">Descripción</h5>
-      </div>
-      <div class="col m2 blue-grey lighten-2">
-        <h5 class="blue-grey-text text-darken-4">Lugar</h5>
-      </div>
+    <h2 class="center-align">Cronograma</h2>
+    <table class="bordered responsive-table">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Fecha</th>
+          <th>Horario</th>
+          <th>Descripción</th>
+          <th>Lugar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Instancia Zonal</td>
+          <td>23/06/16</td>
+          <td>14:20hs</td>
+          <td>Segunda instancia, se necesitan 2 puntas para calificar</td>
+          <td>Colegio Alemán</td>
+        </tr>
+        <tr>
+          <td>Instancia Regional</td>
+          <td>04/08/16</td>
+          <td>09:15hs</td>
+          <td>Competencia provincial, no relacionada a la Nacional</td>
+          <td>Hotel Atlántico</td>
+        </tr>
+      </tbody>
+    </table>
 
-      <!-- Eventos -->
-
-      <div class="col m3 blue-grey lighten-2">
-        <span class="blue-grey-text text-darken-4">Instancia zonal</span>
-      </div>
-      <div class="col m2 blue-grey lighten-2">
-        <span class="blue-grey-text text-darken-4">23/06/16</span>
-      </div>
-      <div class="col m2 blue-grey lighten-2">
-        <span class="blue-grey-text text-darken-4">14:20hs</span>
-      </div>
-      <div class="col m3 blue-grey lighten-2">
-        <span class="blue-grey-text text-darken-4 truncate">Seguda ronda de las Olimpiadas, es necesario obtener</span>
-      </div>
-      <div class="col m2 blue-grey lighten-2">
-        <span class="blue-grey-text text-darken-4">Colegio Alemán</span>
-      </div>
-
-      <div class="col m3 blue-grey lighten-2">
-        <span class="blue-grey-text text-darken-4">Instancia regional</span>
-      </div>
-      <div class="col m2 blue-grey lighten-2">
-        <span class="blue-grey-text text-darken-4">04/08/16</span>
-      </div>
-      <div class="col m2 blue-grey lighten-2">
-        <span class="blue-grey-text text-darken-4">09:20hs</span>
-      </div>
-      <div class="col m3 blue-grey lighten-2">
-        <span class="blue-grey-text text-darken-4 truncate">Ronda regional, no es eliminatoria para la instancia nacional</span>
-      </div>
-      <div class="col m2 blue-grey lighten-2">
-        <span class="blue-grey-text text-darken-4">Hotel Atlántico</span>
-      </div>
-    </div>
   </div>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
