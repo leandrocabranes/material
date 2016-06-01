@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <title>OMA</title>
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
   <link rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
   <link rel="stylesheet" href="css/index.css"  media="screen,projection"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -62,8 +62,43 @@
           <td>Competencia provincial, no relacionada a la Nacional</td>
           <td>Hotel Atlántico</td>
         </tr>
+        <tr>
+          <td>Instancia Provincial</td>
+          <td>12/08/16</td>
+          <td>15:40hs</td>
+          <td>Competencia provincial, eliminatoria a la ronda Nacional</td>
+          <td>Colegio Danés</td>
+        </tr>
       </tbody>
     </table>
+  </div>
+
+  <div class="container section">
+    <h2 class="center-align">Noticias</h2>
+    <div class="row">
+      <div class="col m6 s12">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Seleccionados para la instancia Zonal</span>
+            <p>Los participante necesitarán dos puntos o más para participar de la siguiente ronda</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Leer noticia completa</a>
+          </div>
+        </div>
+      </div>
+      <div class="col m6 s12">
+        <div class="card grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Seleccionados para la instancia Regional</span>
+            <p>Los participante necesitarán dos puntos o más para participar de la siguiente ronda</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Leer noticia completa</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <footer class="page-footer blue-grey lighten-2">
@@ -85,7 +120,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-        © 2014 Copyright Text
+        © 2016 Copyright Text
         <a href="#" class="grey-text text-lighten-4 right">Webmaster</a>
       </div>
     </div>
